@@ -6,14 +6,14 @@ AGENDA
 * Versionen Vergleich
 * Installation
 * FirstSettings on Server
-* SystemDBs Wartugsplan Sicherung der SystemDBs
+* SystemDBs - Wartugsplan Sicherung der SystemDBs
 
 
 ##Tag 2
 * Wiederholung Tag1
 * DB anlegen
 * Best Settings on DB (kompabilität, Files, Größen, Wachstum)
-* DB Design (DB Diagramm)
+* DB Design (DB Diagramm, DB DESIGN: Normalisierung, physik Architektur)
 * ObjektKunde (Prozeduren, Views, F(), Tabellen anlegen)
 
 
