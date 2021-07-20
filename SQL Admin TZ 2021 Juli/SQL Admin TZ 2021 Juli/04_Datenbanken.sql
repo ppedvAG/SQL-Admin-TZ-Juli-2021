@@ -109,3 +109,5 @@ GO 20000
 --4 Sekunden besser..... keine Fragmentierung ...
 
 
+
+
