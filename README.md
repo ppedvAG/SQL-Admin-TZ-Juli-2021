@@ -3,10 +3,10 @@
 AGENDA
 
 ##TAG 1:
-Versionen Vergleich
-Installation
-FirstSettings on Server
-SystemDBs Wartugsplan Sicherung der SystemDBs
+*Versionen Vergleich
+*Installation
+*FirstSettings on Server
+*SystemDBs Wartugsplan Sicherung der SystemDBs
 
 
 ##Tag 2
