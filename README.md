@@ -2,26 +2,26 @@
 
 AGENDA
 
-##TAG 1:
+## TAG 1:
 * Versionen Vergleich
 * Installation
 * FirstSettings on Server
 * SystemDBs - Wartugsplan Sicherung der SystemDBs
 
 
-##Tag 2
+## Tag 2:
 * Wiederholung Tag1
 * DB anlegen
-* Best Settings on DB (kompabilit‰t, Files, Grˆﬂen, Wachstum)
+* Best Settings on DB (kompabilit√§t, Files, Gr√∂√üen, Wachstum)
 * DB Design (DB Diagramm, DB DESIGN: Normalisierung, physik Architektur)
 * ObjektKunde (Prozeduren, Views, F(), Tabellen anlegen)
 
 
-##Tag 3:
-* Agent 
-* Einrichten des Emailsystems (Profile)
-* Warnungen (Ebenen)
-* Jobs anlegen (Zeitpl‰ne, Benachrichtigung, Ablaufsteuerung)
+## Tag 3:
+* Agent
+* Einrichten des Emailsystems
+* Warnungen
+* Jobs anlegen (Zeitpl√§ne, Benachrichtigung, Ablaufsteuerung)
 * Nachverfolgung
 * Proxykonten
 * Operatoren
