@@ -155,3 +155,15 @@ exec proc gpdemo 12, 14
 
 
 
+
+--F()
+
+--F() sind super praktisch und super felxibel, aber meist total langsam..
+
+select * from Customers where CustomerID like 'A%' --schnell
+
+
+select * from Customers where left(CustomerID,1) = 'A'-- immer eine Suche von A bis Z
+
+select funk(wert), funk2(spalte) from fkt(Wert) where fkt3(spalte) > fkt4(wert)
+

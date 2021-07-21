@@ -37,6 +37,30 @@
           <AssociatedConnUserName />
           <FullPath>03_SystemDBs.sql</FullPath>
         </FileNode>
+        <FileNode Name="04_Datenbanken.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04_Datenbanken.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_DBDesign_Ojekte.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>05_DBDesign_Ojekte.sql</FullPath>
+        </FileNode>
+        <FileNode Name="100_Recap.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>100_Recap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_Import.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>X_Import.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
