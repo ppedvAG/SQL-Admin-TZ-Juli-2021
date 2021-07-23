@@ -21,19 +21,25 @@ AGENDA
 * Agent
 * Einrichten des Emailsystems
 * Warnungen
-* Jobs anlegen (ZeitplÃ¤ne, Benachrichtigung, Ablaufsteuerung)
+* Jobs anlegen (Zeitpläne, Benachrichtigung, Ablaufsteuerung)
 * Nachverfolgung
 * Proxykonten
 * Operatoren
 
-##Tag 4:
+## Tag 4:
 * Backupvarianten (Voll, Diff Tlog)
 * Wiederherstellungsmodel (Full, Bulk, Simple)
 * Backupmedium -sätze
 * Restore (versch Szenarien)
 * DB trennen - anfügen
-* Snapshot
 * Backupjob
+* Snapshot
+
+## Tag 5
+* Restore
+* Contained Database
+* Sicherungsplan
+* Security (Login-User, Schema, Rechtevergabe)
 
 
 
