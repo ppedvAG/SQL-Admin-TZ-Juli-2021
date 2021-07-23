@@ -41,6 +41,26 @@ AGENDA
 * Sicherungsplan
 * Security (Login-User, Schema, Rechtevergabe)
 
+## Tag 6
+* Security - Datenbankrolle
+* Besitzverkettung
+* Anwendungsrolle
+
+## Tag 7
+* Monitoring
+* Abfragespeicher
+* Profiler
+* Perfmon
+* DMVs
+
+## Tag 8
+* Indizes
+
+## Tag 9
+* Wartung DB
+
+## Tag 10
+
 
 
 

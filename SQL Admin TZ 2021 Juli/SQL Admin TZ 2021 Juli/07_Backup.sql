@@ -276,7 +276,7 @@ from database_snapshot='SN_KursDb2014_1330'
 --Ja klar
 
 --Kann man einen Snapshot restoren?
---Hä?  Ohne Sicherung kein restore .. PUNKT
+--Hä?  Ohne Sicherung kein restore .. 
 
 
 --Kann man einen DB  restoren, die einen Snapshot besitzt?

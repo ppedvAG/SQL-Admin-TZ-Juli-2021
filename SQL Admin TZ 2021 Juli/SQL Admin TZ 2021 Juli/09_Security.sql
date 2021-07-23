@@ -1,3 +1,22 @@
+/*
+
+
+Login: Betreten des SQL Servers
+User: Rechte in einer DB
+
+Login und User sind zwei getrennt zu betrachtende Dinge
+
+Innerhalb der DB:
+
+Schema entspricht Ordner
+Rollen entspricht Gruppen
+
+
+Auf Schemas können Rechte vergeben werden wie etwa Select 
+damit kann der Benutzer alles Lesen , was innerhalb des Schemas liegt
+*/
+
+
 USE [master]
 GO
 CREATE LOGIN [EVI] WITH PASSWORD=N'123', DEFAULT_DATABASE=[Northwind], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
@@ -23,4 +42,45 @@ ALTER USER [EVI] WITH DEFAULT_SCHEMA=[MA]
 GO
 ALTER USER OTTO WITH DEFAULT_SCHEMA=IT
 GO
+
+--Recht auf Tabelle direkt vergeben
+GRANT SELECT ON [IT].[kst] TO [Otto]
+GO
+
+--Leichter wird es mit Rollen
+USE Northwind
+GO
+CREATE ROLE ITROLLE AUTHORIZATION [dbo]
+GO
+USE Northwind
+GO
+ALTER ROLE ITROLLE ADD MEMBER OTTO
+GO
+
+
+
+/*Serverrollen
+eigenen sich dazu best Personen Administrationsrechte zu geben...
+
+entweder verwendet man die vorgegebenen Serverrollen
+oder man macht eig. Der Vorteil von selbsterstellten Serverrollen ist der, dass man die Rechte einzelen 
+konfigurieren kann und nicht gleich zB alle Sicherheitsrechte bekommt..
+
+*/
+
+CREATE SERVER ROLE [KursDBSecurityRolle]
+GO
+
+ALTER SERVER ROLE [KursDBSecurityRolle] ADD MEMBER [Max]
+
+GO
+
+use [master]
+
+GO
+
+GRANT ALTER ON LOGIN::OTTO TO [KursDBSecurityRolle]
+
+GO
+
 
