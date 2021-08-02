@@ -45,6 +45,7 @@ AGENDA
 * Security - Datenbankrolle
 * Besitzverkettung
 * Anwendungsrolle
+* Überwachung , Überwachungsspezi
 
 ## Tag 7
 * Monitoring

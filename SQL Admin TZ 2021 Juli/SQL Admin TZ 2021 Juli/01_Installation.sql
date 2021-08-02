@@ -9,7 +9,8 @@ NT only: sicherer und weniger komplex (Migration  und Verwaltung)
 gemischte Auth: NT + SQL Auth (eig Logins im SQL Server)
 --> SA Konto (Vollzugriff)..komplexes Kennwort 17 Stellen.. später deaktvieren und Ersatzkonto
 
-Wer soll aus NT der SQL Admin sein? also keine Windows Admin = SQL Admin !!
+Wer soll aus NT der SQL Admin sein? 
+also keine Windows Admin = SQL Admin !!
 der muss definiert werden
 
 

@@ -84,3 +84,48 @@ GRANT ALTER ON LOGIN::OTTO TO [KursDBSecurityRolle]
 GO
 
 
+USE [Northwind]
+GO
+CREATE ROLE [ITGruppe] AUTHORIZATION [dbo]
+GO
+USE [Northwind]
+GO
+ALTER ROLE [ITGruppe] ADD MEMBER [Otto]
+GO
+
+
+--Ein neuer Mitarbeiter Fritz kommt in die Firma..
+--und soll dasselbe tun dürfen, was Otto macht
+
+/*
+1.Login anlegen
+2.Benutzer anlegen passend zum Login (Usermapping)
+3.In DBRolle ITGruppe mitaufnehmen
+
+--> geht alles bereits beim Login anlegen..:-)
+
+
+
+
+*/
+
+USE [master]
+
+GO
+
+CREATE SERVER ROLE [SecondLevel] AUTHORIZATION [sa]
+
+GO
+
+ALTER SERVER ROLE [FirstLevelSupport] ADD MEMBER [SecondLevel]
+
+GO
+
+use [master]
+
+GO
+
+GRANT SHUTDOWN TO [SecondLevel]
+
+GO
+
