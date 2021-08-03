@@ -129,3 +129,30 @@ GRANT SHUTDOWN TO [SecondLevel]
 
 GO
 
+
+
+--PUBLIC = JEDER
+--am besten nix damit tun.. alles was man damit tut+
+--gilt für jeden..
+
+--GUEST... am besten deaktiviert lassen
+--ZUgriff auf DB ohne als Benutzer enthalten zu sein
+
+--Solange man keine Rechte vergibt, bekommt man auch keine
+--
+
+sp_setapprole 'Gehaltsrolle', 'ppedv2020!'
+
+select * from orders
+
+
+--Verwende Schema
+
+select * from personal  (it, ma)
+Sichten 
+
+delete from Vemployees
+AnwRolle
+
+
+--Überwachung = Logfile
