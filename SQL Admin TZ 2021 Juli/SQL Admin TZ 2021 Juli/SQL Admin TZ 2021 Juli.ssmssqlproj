@@ -103,6 +103,12 @@
           <AssociatedConnUserName />
           <FullPath>10_Monitoring.sql</FullPath>
         </FileNode>
+        <FileNode Name="Page_info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Page_info.sql</FullPath>
+        </FileNode>
         <FileNode Name="X_100_Recap.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
