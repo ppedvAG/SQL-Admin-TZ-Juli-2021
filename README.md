@@ -56,11 +56,17 @@ AGENDA
 
 ## Tag 8
 * Indizes
+* Aufzeichnung
 
 ## Tag 9
-* Wartung DB
+* Auflösung der Aufzeichnungen
+* Wartung Indizes
+* Columnstore
 
 ## Tag 10
+* Hochverfügbarkeit Übersicht
+* Partitionierung 
+* Kompression
 
 
 
