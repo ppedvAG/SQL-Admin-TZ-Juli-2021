@@ -213,7 +213,39 @@ select * from ku3 where Freight = 0.02 and EmployeeID = 2
 
 
 --select * into ku3 from ku1
+---Abfrage : where aggregate
+--Umsatz pro  Produkt aber nur für 'Rössle Sauerkraut' Ipoh Coffee
+select top 3 * from ku1
 
+--idealer IX: NIX_PN_i_upqu
+
+select productname, SUM(unitprice*quantity) from ku1
+where ProductName in ('Rössle Sauerkraut' ,'Ipoh Coffee')
+Group by Productname
+
+USE [Northwind]
+GO
+CREATE NONCLUSTERED INDEX NIXXY
+ON [dbo].[ku1] ([ProductName])
+INCLUDE ([UnitPrice],[Quantity])
+GO
+
+set statistics io, time on
+
+--350MB Daten plus 360MB IX
+select productname, SUM(unitprice*quantity) from ku1
+where ProductName in ('Rössle Sauerkraut' ,'Ipoh Coffee')
+Group by Productname
+
+--schneller .. 3,5MB Daten.. real!.. Kompression.. it Archiv KOmression 3 MB auf HDD und in RAM
+select productname, SUM(unitprice*quantity) from ku3
+where EmployeeID = 3
+Group by Productname
+
+--Beste Idee für Columnstore: Archivtabellen, Stammtabellen,, je größer desto besser
+
+--Prüfen der Columnstore Strukturen und deren Segmente:
+select * from sys.dm_db_column_store_row_group_physical_stats
 
 
 

@@ -103,6 +103,12 @@
           <AssociatedConnUserName />
           <FullPath>10_Monitoring.sql</FullPath>
         </FileNode>
+        <FileNode Name="11_indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>11_indizes.sql</FullPath>
+        </FileNode>
         <FileNode Name="Page_info.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -121,6 +127,12 @@
           <AssociatedConnUserName />
           <FullPath>X_200_sp_help_revlogin.sql</FullPath>
         </FileNode>
+        <FileNode Name="X_Events.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X_Events.sql</FullPath>
+        </FileNode>
         <FileNode Name="X_Glenn Berry DMVs.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
@@ -132,6 +144,36 @@
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>X_Import.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_Index sehen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X_Index sehen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_instnwnd.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X_instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_PerfCounter.sql.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X_PerfCounter.sql.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_Trigger.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X_Trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_Überflüssige Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X_Überflüssige Indizes.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
