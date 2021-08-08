@@ -64,7 +64,8 @@ AGENDA
 * Columnstore
 
 ## Tag 10
-* Hochverfügbarkeit Übersicht
+* Registrierte Server
+* Richtlinien
 * Partitionierung 
 * Kompression
 

@@ -15,6 +15,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="nina.ppedv.de:ar1">
+          <Created>2021-08-06T09:40:30.6608479+02:00</Created>
+          <Type>SQL</Type>
+          <Server>nina.ppedv.de</Server>
+          <UserName>ar1</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>msdb</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
@@ -109,11 +121,29 @@
           <AssociatedConnUserName />
           <FullPath>11_indizes.sql</FullPath>
         </FileNode>
-        <FileNode Name="Page_info.sql">
+        <FileNode Name="12_Regelm_Prüfungen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12_Regelm_Prüfungen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_CPU.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13_CPU.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_HDD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14_HDD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X__Partitionierung.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>Page_info.sql</FullPath>
+          <FullPath>X__Partitionierung.sql</FullPath>
         </FileNode>
         <FileNode Name="X_100_Recap.sql">
           <AssociatedConnectionMoniker />
